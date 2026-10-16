@@ -14,4 +14,4 @@ sorted the "order date" in "descending order" and filtered state column to only 
 Duplicate the “Order Details” table / "home"/"group by" (group by columns "order id" , "category","sub category") (new columns "order count" ,"avg profit", "total amount") ( operations "count rows" "average","sum") ( column "profit","amount")
 dupilcate "sales target" select "order date" column "add column"/"date"/"month"/"name of month"| 
 "home"/"group by" "month name" , new column "total target amount" ,operation "sum" ,column "target amount"
-established relationship from "list of orders " and " order details" from 1...* and "order details" and " sales target" as *..*
+established relationship from "list of orders " and " order details" from one to many 1...* and "order details" and " sales target" as many to many *..*
